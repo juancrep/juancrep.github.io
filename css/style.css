@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: 'StageGrotesk';
-    src: url('https://juancrep.github.io/stagegrotesk-regular-webfont.woff2') format('woff2'),
-    url('https://juancrep.github.io/StageGrotesk-Regular.otf') format('opentype');
+    src: url('https://juancrep.github.io/font/stagegrotesk-regular-webfont.woff2') format('woff2'),
+    url('https://juancrep.github.io/font/StageGrotesk-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
