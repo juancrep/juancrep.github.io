@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: 'StageGrotesk';
+    src: url('https://juancrep.github.io/stagegrotesk-regular-webfont.woff2') format('woff2'),
+    url('https://juancrep.github.io/StageGrotesk-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'StageGrotesk', 'Roboto', Arial;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+
+}
+
+.card {
+    width: 800px;
+    height: 300px;
+    background-color: FFFFFF;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.position {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.phone {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 125px;
+    height: auto;
+}
+
+.divider {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.company {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.website {
+    font-size: 30px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+#card-container{
+    background-color: #FFFFFF;
+}
